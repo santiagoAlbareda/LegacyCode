@@ -166,13 +166,38 @@ public class Interval {
 	@Override
 	public String toString() {
 		// TODO
-		return null;
+		return "";
 	}
 
 	@Override
-	public boolean equals(Object object) {
-		// TODO
-		return false;
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		long temp;
+		temp = Double.doubleToLongBits(maximum);
+		result = prime * result + (int) (temp ^ (temp >>> 32));
+		temp = Double.doubleToLongBits(minimum);
+		result = prime * result + (int) (temp ^ (temp >>> 32));
+		result = prime * result + ((opening == null) ? 0 : opening.hashCode());
+		return result;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Interval other = (Interval) obj;
+		if (Double.doubleToLongBits(maximum) != Double.doubleToLongBits(other.maximum))
+			return false;
+		if (Double.doubleToLongBits(minimum) != Double.doubleToLongBits(other.minimum))
+			return false;
+		if (opening != other.opening)
+			return false;
+		return true;
 	}
 
 }
