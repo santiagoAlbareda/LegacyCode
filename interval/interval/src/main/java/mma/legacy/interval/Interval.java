@@ -7,7 +7,7 @@ package mma.legacy.interval;
  */
 public class Interval {
 
-private double minimum;  // número entero que indica el limite superior del intervalo
+private double minimum;  // número entero que indica el limite inferior del intervalo
 	private double maximum;  // número entero que indica el limite superior del intervalo
 private Opening opening; // Valor booleano que indica si el intervalo es abierto o cerrado
 
@@ -32,7 +32,7 @@ System.out.println("Objeto creado");
 	public double midPoint() {		return (maximum + minimum) / 2;	}
 
 	/*
-	 * Este método mira si un número está dentro de un determiando intervalo
+	 * Este método mira si un número está dentro de un determinado intervalo
 	 * 
 	 */
 	public boolean includes(double value) {
