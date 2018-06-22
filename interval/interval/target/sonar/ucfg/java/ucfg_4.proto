@@ -1,0 +1,109 @@
+
+Fmma.legacy.interval.Interval#includes(Lmma/legacy/interval/Interval;)Z
+__unknown_file (interval"36"47"69"59"17"2"4"5"80"84"30"63"31"42"54"76"55"77"11"23"89*ƒ
+89x
+n/Users/santiago/eclipse-workspace/LegacyCode/interval/interval/src/main/java/mma/legacy/interval/Interval.java? @(6"‚
+x
+n/Users/santiago/eclipse-workspace/LegacyCode/interval/interval/src/main/java/mma/legacy/interval/Interval.java? @(6
+""*…
+23y
+n/Users/santiago/eclipse-workspace/LegacyCode/interval/interval/src/main/java/mma/legacy/interval/Interval.javar r(‹"ƒ
+y
+n/Users/santiago/eclipse-workspace/LegacyCode/interval/interval/src/main/java/mma/legacy/interval/Interval.javar r(‹
+""*ƒ
+36x
+n/Users/santiago/eclipse-workspace/LegacyCode/interval/interval/src/main/java/mma/legacy/interval/Interval.javag h(:"‚
+x
+n/Users/santiago/eclipse-workspace/LegacyCode/interval/interval/src/main/java/mma/legacy/interval/Interval.javag h(:
+""*ƒ
+47x
+n/Users/santiago/eclipse-workspace/LegacyCode/interval/interval/src/main/java/mma/legacy/interval/Interval.javaa b(5"‚
+x
+n/Users/santiago/eclipse-workspace/LegacyCode/interval/interval/src/main/java/mma/legacy/interval/Interval.javaa b(5
+""*ƒ
+69x
+n/Users/santiago/eclipse-workspace/LegacyCode/interval/interval/src/main/java/mma/legacy/interval/Interval.javaP Q(5"‚
+x
+n/Users/santiago/eclipse-workspace/LegacyCode/interval/interval/src/main/java/mma/legacy/interval/Interval.javaP Q(5
+""*ƒ
+59x
+n/Users/santiago/eclipse-workspace/LegacyCode/interval/interval/src/main/java/mma/legacy/interval/Interval.javaU V(7"‚
+x
+n/Users/santiago/eclipse-workspace/LegacyCode/interval/interval/src/main/java/mma/legacy/interval/Interval.javaU V(7
+""*ƒ
+17x
+n/Users/santiago/eclipse-workspace/LegacyCode/interval/interval/src/main/java/mma/legacy/interval/Interval.javas t(4"‚
+x
+n/Users/santiago/eclipse-workspace/LegacyCode/interval/interval/src/main/java/mma/legacy/interval/Interval.javas t(4
+""*‚
+2x
+n/Users/santiago/eclipse-workspace/LegacyCode/interval/interval/src/main/java/mma/legacy/interval/Interval.java|
+ |("‚
+x
+n/Users/santiago/eclipse-workspace/LegacyCode/interval/interval/src/main/java/mma/legacy/interval/Interval.java} }(
+""*‚
+4x
+n/Users/santiago/eclipse-workspace/LegacyCode/interval/interval/src/main/java/mma/legacy/interval/Interval.javay y("‚
+x
+n/Users/santiago/eclipse-workspace/LegacyCode/interval/interval/src/main/java/mma/legacy/interval/Interval.javay y(#
+""*‚
+5x
+n/Users/santiago/eclipse-workspace/LegacyCode/interval/interval/src/main/java/mma/legacy/interval/Interval.javaw w(p"‚
+x
+n/Users/santiago/eclipse-workspace/LegacyCode/interval/interval/src/main/java/mma/legacy/interval/Interval.javaw w(p
+""*ƒ
+80x
+n/Users/santiago/eclipse-workspace/LegacyCode/interval/interval/src/main/java/mma/legacy/interval/Interval.javaE F(6"‚
+x
+n/Users/santiago/eclipse-workspace/LegacyCode/interval/interval/src/main/java/mma/legacy/interval/Interval.javaE F(6
+""*ƒ
+84x
+n/Users/santiago/eclipse-workspace/LegacyCode/interval/interval/src/main/java/mma/legacy/interval/Interval.javaB C("‚
+x
+n/Users/santiago/eclipse-workspace/LegacyCode/interval/interval/src/main/java/mma/legacy/interval/Interval.javaB C(
+""*ƒ
+63x
+n/Users/santiago/eclipse-workspace/LegacyCode/interval/interval/src/main/java/mma/legacy/interval/Interval.javaS S(m"‚
+x
+n/Users/santiago/eclipse-workspace/LegacyCode/interval/interval/src/main/java/mma/legacy/interval/Interval.javaS S(m
+""*ƒ
+30x
+n/Users/santiago/eclipse-workspace/LegacyCode/interval/interval/src/main/java/mma/legacy/interval/Interval.javam m("‚
+x
+n/Users/santiago/eclipse-workspace/LegacyCode/interval/interval/src/main/java/mma/legacy/interval/Interval.javan n(
+""*ƒ
+42x
+n/Users/santiago/eclipse-workspace/LegacyCode/interval/interval/src/main/java/mma/legacy/interval/Interval.javad e("‚
+x
+n/Users/santiago/eclipse-workspace/LegacyCode/interval/interval/src/main/java/mma/legacy/interval/Interval.javad e(
+""*ƒ
+31x
+n/Users/santiago/eclipse-workspace/LegacyCode/interval/interval/src/main/java/mma/legacy/interval/Interval.javaj k("‚
+x
+n/Users/santiago/eclipse-workspace/LegacyCode/interval/interval/src/main/java/mma/legacy/interval/Interval.javaj k(
+""*ƒ
+54x
+n/Users/santiago/eclipse-workspace/LegacyCode/interval/interval/src/main/java/mma/legacy/interval/Interval.java[ [("‚
+x
+n/Users/santiago/eclipse-workspace/LegacyCode/interval/interval/src/main/java/mma/legacy/interval/Interval.java\ \(
+""*ƒ
+76x
+n/Users/santiago/eclipse-workspace/LegacyCode/interval/interval/src/main/java/mma/legacy/interval/Interval.javaJ	 J("‚
+x
+n/Users/santiago/eclipse-workspace/LegacyCode/interval/interval/src/main/java/mma/legacy/interval/Interval.javaK K(
+""*…
+11y
+n/Users/santiago/eclipse-workspace/LegacyCode/interval/interval/src/main/java/mma/legacy/interval/Interval.javau u(†"ƒ
+y
+n/Users/santiago/eclipse-workspace/LegacyCode/interval/interval/src/main/java/mma/legacy/interval/Interval.javau u(†
+""*ƒ
+55x
+n/Users/santiago/eclipse-workspace/LegacyCode/interval/interval/src/main/java/mma/legacy/interval/Interval.javaX Y(8"‚
+x
+n/Users/santiago/eclipse-workspace/LegacyCode/interval/interval/src/main/java/mma/legacy/interval/Interval.javaX Y(8
+""*ƒ
+77x
+n/Users/santiago/eclipse-workspace/LegacyCode/interval/interval/src/main/java/mma/legacy/interval/Interval.javaH H(0"‚
+x
+n/Users/santiago/eclipse-workspace/LegacyCode/interval/interval/src/main/java/mma/legacy/interval/Interval.javaH H(0
+""
