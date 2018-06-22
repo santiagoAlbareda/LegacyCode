@@ -3,13 +3,13 @@ package mma.legacy.interval;
 /**
  * Clase para el ejemplo de trabajo con Legacy
  * @author Agustin
- * Controla operaciones sobre intervalos que pudeen ser abiertos o cerrados
+ * Controla operaciones sobre intervalos que pueden ser abiertos o cerrados
  */
 public class Interval {
 
-private double minimum;  // número entero que indica el limite inferior del intervalo
+	private double minimum;  // número entero que indica el limite inferior del intervalo
 	private double maximum;  // número entero que indica el limite superior del intervalo
-private Opening opening; // Valor booleano que indica si el intervalo es abierto o cerrado
+	private Opening opening; // Valor booleano que indica si el intervalo es abierto o cerrado
 
 	/**
 	 * Constructor de la clase
@@ -26,16 +26,18 @@ private Opening opening; // Valor booleano que indica si el intervalo es abierto
 	}
 
 	/**
-	 * Este método calcula la división entre 2 de la suma de los límites del intervalo
-	 * @return
+	 * Método que calcula la mediana de un intervalo
+	 * @return 		la mediana del intervalo
 	 */
 	public double midPoint() {		
 		return (maximum + minimum) / 2;	
 	}
 
-	/*
-	 * Este método mira si un número está dentro de un determinado intervalo
-	 * 
+	/**
+	 * Método para determinar si un valor pertenece a un intervalo
+	 * @param value 	el valor que queremos comprobar si pertenece al intervalo
+	 * @return 			<code>true</code> si el valor pertenece al intervalo
+	 * 					<code>false</code> en cualquier otro caso
 	 */
 	public boolean includes(double value) {
 		System.out.print("Entro en el método");	
@@ -51,11 +53,12 @@ private Opening opening; // Valor booleano que indica si el intervalo es abierto
 		}
 	}
 
-/**
-	 * Este método calcula si un número está dentro de un intervalo
-	 * @param interval
-	 * @return
- */
+	/**
+	 * Método para determinar si un intervalo dado está incluido dentro del intervalo
+	 * @param interval 	el intervalo sobre el cual queremos comprobar si está incluido dentro de otro
+	 * @return			<code>true</code> si el intervalo dado está incluido en el intervalo
+	 * 					<code>false</code> en cualquier otro caso
+	 */
 	public boolean includes(Interval interval) {
 		boolean minimumIncluded = this.includes(interval.minimum);
 		boolean maximumIncluded = this.includes(interval.maximum);
@@ -123,9 +126,10 @@ private Opening opening; // Valor booleano que indica si el intervalo es abierto
 	}
 
 	/**
-	 * Este método calcula el ancho de un intervalo
-	 * @param interval
-	 * @return
+	 * Método que comprueba si un intervalo tiene intersección con otro
+	 * @param interval	el intervalo dado para comprobar intersección con este intervalo
+	 * @return			<code>true</code> si el intervalo dado tiene intersección con este intervalo
+	 * 					<code>false</code> en cualquier otro caso
 	 */
 
 	public boolean intersectsWith(Interval interval) {
